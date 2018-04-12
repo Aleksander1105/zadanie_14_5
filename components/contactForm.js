@@ -11,12 +11,12 @@ var contactForm = React.createClass({
 					placeholder: 'Imię',
 					value: this.props.contact.firstName,
 				}),
-				React.createElement('input' {
+				React.createElement('input', {
 					type: 'text',
 					placeholder: 'Nazwisko',
 					value: this.props.contact.lastName,
 				}),
-				React.createElement('input' {
+				React.createElement('input', {
 					type: 'email',
 					placeholder: 'Email',
 					value: this.props.contact.email,
