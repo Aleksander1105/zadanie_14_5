@@ -1,4 +1,4 @@
-var contact = React.createClass({
+var Contact = React.createClass({
   propTypes: {
     item: React.PropTypes.object.isRequired,
   },
